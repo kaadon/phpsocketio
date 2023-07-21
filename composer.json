@@ -1,0 +1,33 @@
+{
+  "name": "kaadon/phpsocketio",
+  "type": "library",
+  "description": "kaadon phpsocketio",
+  "keywords": [
+    "kaadon phpsocketio",
+    "phpsocketio",
+    "kaadon"
+  ],
+  "homepage": "https://developer.kaadon.com/",
+  "license": "Apache-2.0",
+  "require": {
+    "PHP": ">=8.1",
+    "workerman/phpsocket.io": "^2.0"
+  },
+  "authors": [
+    {
+      "name": "kaadon",
+      "email": "kaadon.com@gmail.com",
+      "homepage": "https://www.kaadon.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Kaadon\\SocketIo\\": "src"
+    },
+    "files": [
+    ]
+  },
+  "require-dev": {
+    "topthink/framework": "^8.0"
+  }
+}
